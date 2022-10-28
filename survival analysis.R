@@ -1,6 +1,6 @@
 library('survival')
-if(!require(devtools)) install.packages("devtools")
-devtools::install_github("kassambara/survminer", build_vignettes = FALSE)
+#if(!require(devtools)) install.packages("devtools")
+#devtools::install_github("kassambara/survminer", build_vignettes = FALSE)
 library('survminer')
 library('tidyr')
 surdata=read.table("C:/Users/shristi/Documents/survival analysis prac data/CGGA.mRNAseq_693_clinical.20200506.txt",sep="\t",header = T,row.names = 1)
